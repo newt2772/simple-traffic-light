@@ -1,0 +1,53 @@
+body{
+    background: lightblue;
+    text-align: center;
+    color: darkblue;
+}
+
+.traffic{
+    height: 300px;
+    background: black;
+    width: 100px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding-top: 20px;
+    
+}
+
+.light{
+    background: white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.pole{
+    width: 20px;
+    height: 200px;
+    background: gray;
+    margin: 0 auto;
+}
+
+.base{
+    width: 100px;
+    height: 25px;
+    background: black;
+    transform: perspective(15px) rotateX(9deg);
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.red.active{
+    background: red;
+}
+
+.yellow.active{
+    background: yellow;
+}
+
+.green.active{
+    background: green;
+}
